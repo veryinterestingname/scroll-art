@@ -1,19 +1,5 @@
-## Getting Started
+Rule 30 pattern: this is a pattern that is based on rule 30, a cellular automaton, developed by stephen wolfram. Although the rules to make this already existed, it did not exist as an ASCII pattern as far as I know. Since I couldn't make it the full triangle as it is supposed to be, both due to size restrictions and that it would take too much space, I made it loop around so the edges are considered adjacent to each other, so it generates a different, but still similar pattern. The way the rule works is that if in the previous generation the pattern of the three positions adjacent to any particular bit, the left, right, and that bit, were 111, 110, 101, or 000 then in the next generation that bit would be a zero, and in the other 4 cases that bit would be a 1. This creates many interesting patterns, the most visually obvious one being the upside triangles made of negative space. 2 points? i think because I didn't make the pattern but I was the one who made it work as ASCII art, so that's 1 and 3 which average to 2.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Still life: this is a still life of a penguin moving with an igloo staying still and snow falling. The penguin cannot go above the horizon line and will appear behind the igloo if it's higher on the screen, or "further away" in the perspective. To determine the drawing order, I made it first find the base of each object and make sure that the further object is drawn first, so that the closer object covers any parts of the further object that are behind it. Additionally, I noticed that it wasn't too clear that it was a penguin and an igloo so I added labels. 1 point because it is my own art.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# scroll-art
+Total of 3 points over 2 artworks, so an average of 1.5
